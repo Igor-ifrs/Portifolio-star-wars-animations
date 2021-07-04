@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Se eu fosse fã de star wars...",
   "main": "index.js",
-  "homepage":"github-page/star",
+  "homepage":"github-page/",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html"

@@ -1,1 +1,9 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="/src.5726c9d5.css"><title>Igor correa DEV</title></head><body> <div class="canvas-wrapper"> <div id="canvas"></div> </div> <script src="/src.bd6e6bf0.js"></script> </body></html>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><style>:root{--bg-color:#000}*{margin:0;padding:0;box-sizing:border-box}.canvas-wrapper{height:100vh;width:100%;background:var(--bg-color);position:relative}#canvas{position:absolute;top:0;border:5px solid #fff}</style><title>Igor correa DEV</title></head><body><div class="canvas-wrapper"><div id="canvas"></div></div><script>const canvas = document.querySelector("#canvas");
+
+      const screenForCanvas = function () {
+        const screen = { X: window.innerWidth, Y: window.innerHeight };
+        canvas.style.height = `${screen.Y}px`;
+        canvas.style.width = `${screen.X}px`;
+      };
+      window.addEventListener("resize", screenForCanvas);
+      window.addEventListener("load", screenForCanvas);</script></body></html>
